@@ -1,2 +1,6 @@
-#!/usr/bin/python3
-return [replace if element == search else element for element in my_list]
+#!/usr/bin/python
+def search_replace(my_list, search, replace):
+    new_list = []
+    for element in my_list:
+        new_list.append(replace if element == search else element)
+        return new_list
