@@ -35,4 +35,3 @@ def pascal_triangle(n):
 if __name__ == "__main__":
     for row in pascal_triangle(5):
         print(row)
-
